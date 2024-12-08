@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import { Inter , Poppins } from 'next/font/google'
 import Image from "next/image";
 
 import {Josefin_Sans , Lato } from 'next/font/google'

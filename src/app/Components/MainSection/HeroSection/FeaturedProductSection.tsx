@@ -1,11 +1,8 @@
 import {Josefin_Sans , Lato } from 'next/font/google'
+import Image from 'next/image';
 const josefinSans = Josefin_Sans({
     subsets: ['latin-ext'],
     weight: '700'
-})
-const lato = Lato({
-    subsets:['latin'],
-    weight: '400'
 })
 
 
@@ -53,7 +50,9 @@ export default function FeaturedProductSection() {
             key={product.id}
             className={`relative bg-white p-4 rounded-xl shadow-md w-[270px] h-[361px]  `}
           >
-            <img
+            <Image
+            width={270}
+            height={361}
               src={product.img}
               alt={product.name}
               className="w-full h-32 object-contain mb-4 "

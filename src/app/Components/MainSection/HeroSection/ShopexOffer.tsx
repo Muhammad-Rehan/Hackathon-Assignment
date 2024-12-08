@@ -4,11 +4,6 @@ const josefinSans = Josefin_Sans({
     subsets: ['latin-ext'],
     weight: '700'
 })
-const lato = Lato({
-    subsets:['latin'],
-    weight: '400'
-})
-
 
 export default function ShopexOffer() {
   const shopex = [
