@@ -1,4 +1,4 @@
-import {Josefin_Sans , Lato } from 'next/font/google'
+import {Josefin_Sans  } from 'next/font/google'
 import Image from 'next/image';
 const josefinSans = Josefin_Sans({
     subsets: ['latin-ext'],
